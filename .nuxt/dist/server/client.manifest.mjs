@@ -1,0 +1,1 @@
+export { default } from "file:///C:/Users/user/Downloads/banking-app-nuxt3/banking-app/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"

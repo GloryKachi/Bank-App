@@ -1,6 +1,6 @@
 <template>
   <div class="w-full py-10 px-4 md:px-10">
-      <div class="relative overflow-hidden min-h-[220px] md:min-h-[180px]">
+      <div class="relative overflow-hidden min-h-[220px] ">
         <transition name="fade-slide" mode="out-in">
           <div
               :key="currentSlideIndex"
@@ -8,7 +8,7 @@
           >
             <!-- Left-->
             <div class="flex-1 text-left">
-              <h2 class="font-medium w-[703px] md:text-3xl  text-[#0D2C65]" style="font-size: 64px; line-height: 77px; letter-spacing: -0.02em;">
+              <h2 class="font-medium w-full max-w-[703px] md:text-3xl  text-[#0D2C65]" style="font-size: 64px; line-height: 77px; letter-spacing: -0.02em;">
                 {{ slides[currentSlideIndex].title }}
               </h2>
             </div>

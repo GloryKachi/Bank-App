@@ -1,24 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 // @ts-ignore
-// export default defineNuxtConfig({
-//   devtools: { enabled: true },
-//   modules: ['@nuxtjs/tailwindcss'],
-//   css: ['~/assets/css/main.css'],
-//   app: {
-//     head: {
-//       title: 'Banking App - Multi-currency accounts for Africans',
-//       meta: [
-//         { charset: 'utf-8' },
-//         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-//         {
-//           name: 'description',
-//           content: 'Multi-currency accounts for Africans. Reduce the cost of sending money to Africa at an average cost of 1%.'
-//         }
-//       ]
-//     }
-//   }
-// })
-
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxtjs/tailwindcss'],

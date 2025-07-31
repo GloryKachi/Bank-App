@@ -1,12 +1,11 @@
 <template>
-  <div>
+  <div class=" overflow-x-hidden">
     <AppHeader />
-    <main>
+    <main class="">
       <HeroSection/>
       <SendReceiveSection/>
       <FeaturesGrid/>
       <TrustedPartners/>
-<!--      <Blog/>-->
     </main>
     <AppFooter/>
   </div>
@@ -14,6 +13,5 @@
 
 <script setup>
 // Components are auto-imported in Nuxt 3
-
 </script>
 

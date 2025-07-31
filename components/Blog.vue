@@ -1,24 +1,22 @@
 <template>
   <div class="min-h-screen bg-white">
-      <Press/>
+    <Press/>
     <!-- Main Content -->
-    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 mt-32">
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8 mt-8 sm:mt-16 lg:mt-32">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
         <article
             v-for="article in articles"
             :key="article.id"
-            class="bg-[#F8F9FE] rounded-lg  overflow-hidden hover:shadow-lg transition-shadow duration-300"
+            class="bg-[#F8F9FE] rounded-lg overflow-hidden hover:shadow-lg transition-shadow duration-300 w-full"
         >
           <!-- Category Badge Usage -->
-          <div class="p-4 pb-2">
+          <div class="p-3 sm:p-4 pb-2">
             <CategoryBadge :label="article.category" color="#2CD85F" />
           </div>
 
-
-
           <!-- Article Content -->
-          <div class="px-5 pb-4">
-            <h2 class="font-semibold text-[17px] leading-[19px] text-[#0D2C65] mb-2 line-clamp-2">
+          <div class="px-3 sm:px-5 pb-3 sm:pb-4">
+            <h2 class="font-semibold text-base sm:text-[17px] leading-tight sm:leading-[19px] text-[#0D2C65] mb-2 line-clamp-2">
               {{ article.title }}
             </h2>
             <div class="flex items-center text-sm text-gray-500 space-x-4">
@@ -27,18 +25,18 @@
           </div>
 
           <!-- Article Image -->
-          <div class="pt-4">
-            <div class="w-full h-48 rounded-sm overflow-hidden">
+          <div class="pt-3 sm:pt-4">
+            <div class="w-full h-40 sm:h-48 rounded-sm overflow-hidden">
               <img
                   v-if="article.imageUrl"
                   :src="article.imageUrl"
                   :alt="article.imageAlt || article.title"
-                  class="w-full  h-full object-cover"
+                  class="w-full h-full object-cover"
                   @error="handleImageError"
               />
               <div
                   v-else
-                  class="w-full h-full flex items-center justify-center text-white font-bold text-lg"
+                  class="w-full h-full flex items-center justify-center text-white font-bold text-base sm:text-lg p-2 text-center"
                   :class="getImageBackground(article.id)"
               >
                 {{ article.imageText || article.title.substring(0, 20) + '...' }}
@@ -51,10 +49,9 @@
   </div>
 </template>
 
-
 <script setup lang="ts">
-
 import CategoryBadge from "./reusables/CategoryBadge.vue";
+
 interface Article {
   id: number;
   title: string;
@@ -71,7 +68,7 @@ const articles: Article[] = [
     title: "Combining AI, fintech to solve African mobile inclusion",
     category: "FINTECH",
     date: "May 15, 2024",
-    imageUrl: "/images/ai-img.svg", // Local image in public/images/
+    imageUrl: "/images/ai-img.svg",
     imageAlt: "AI and Fintech integration in Africa",
     imageText: "AI & FINTECH"
   },
@@ -80,7 +77,7 @@ const articles: Article[] = [
     title: "Ghana to host the 14th Africa Fintech Summit on October 8th",
     category: "EVENT",
     date: "Sep 20, 2024",
-    imageUrl: "/images/host-fintech.svg", // External image
+    imageUrl: "/images/host-fintech.svg",
     imageAlt: "Africa Fintech Summit in Ghana",
     imageText: "AFRICA FINTECH SUMMIT"
   },
@@ -89,7 +86,7 @@ const articles: Article[] = [
     title: "Midterm Report: Techstars Toronto's Second 2021 Class",
     category: "STARTUP",
     date: "Jul 12, 2024",
-    imageUrl: "/images/tech-stars.svg", // Local image
+    imageUrl: "/images/tech-stars.svg",
     imageAlt: "Techstars Toronto accelerator program",
     imageText: "TECHSTARS TORONTO"
   },
@@ -98,7 +95,7 @@ const articles: Article[] = [
     title: "Wise granted approval to join Zengin, Japan's domestic payment system",
     category: "FINTECH",
     date: "Jun 28, 2024",
-    imageUrl: "/images/wise-img.svg", // External image
+    imageUrl: "/images/wise-img.svg",
     imageAlt: "Wise payment system in Japan",
     imageText: "WISE"
   },
@@ -107,7 +104,7 @@ const articles: Article[] = [
     title: "African startups to participate at Techstars Toronto October 2021 cohort",
     category: "EVENT",
     date: "Oct 5, 2024",
-    imageUrl: "/images/future-africa-img.svg", // Local image
+    imageUrl: "/images/future-africa-img.svg",
     imageAlt: "African startups at Techstars",
     imageText: "TECHSTARS"
   },
@@ -116,7 +113,7 @@ const articles: Article[] = [
     title: "More African startups get into Techstars Toronto",
     category: "STARTUP",
     date: "Aug 18, 2024",
-    imageUrl: "/images/future-africa-img.svg", // External image
+    imageUrl: "/images/future-africa-img.svg",
     imageAlt: "Startup collaboration",
     imageText: "TECHSTARS"
   }

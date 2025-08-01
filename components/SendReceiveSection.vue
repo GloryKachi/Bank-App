@@ -2,14 +2,14 @@
   <section class="py-16 lg:py-24 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-      <div class="text-center mb-28">
+      <div class="flex justify-center mb-28 px-4">
         <h2
-            class="block md:hidden w-full text-[34px] leading-[37px] tracking-[-0.02em] font-medium text-[#0D2C65] text-left"
+            class="w-full max-w-[940px] text-[34px] leading-[37px] tracking-[-0.02em] font-medium text-[#0D2C65] text-center"
         >
           We are on a mission to reduce the cost of sending money to Africa at an average cost of 1%
         </h2>
-
       </div>
+
 
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
@@ -33,7 +33,7 @@
 
               <!-- ONLY mobile-->
               <h3 class="font-medium  tracking-[-0.02em] text-[#0D2C65]
-              block md:hidden w-full  text-[48px] leading-[56px] align-bottom
+              block  w-full  text-[48px] leading-[56px] align-bottom
 ">
                 Send & Receive money on your own terms
               </h3>

@@ -12,6 +12,6 @@
 </template>
 
 <script setup>
-// Components are auto-imported in Nuxt 3
+
 </script>
 

@@ -8,12 +8,19 @@
 
     <!-- Hero Text Section - Made Responsive -->
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center justify-center text-center space-y-4 my-8 sm:my-12 lg:my-16">
-      <p class="text-2xl sm:text-3xl lg:text-[40px] font-medium leading-tight sm:leading-[1.3] lg:leading-[52px] tracking-[-0.02em] text-[#0D2C65]">
+      <!-- Mobile-only text -->
+      <p class="block md:hidden w-full text-[48px] leading-[56px] tracking-[-0.02em] font-medium align-bottom text-[#0D2C65] text-left">
+        The Bomba app is all you need to send money both at home and abroad
+      </p>
+
+      <!-- Tablet and Desktop text -->
+      <p class="hidden md:block text-2xl sm:text-3xl lg:text-[40px] font-medium leading-tight sm:leading-[1.3] lg:leading-[52px] tracking-[-0.02em] text-[#0D2C65]">
         The Bomba app helps our users send & receive money, swap currencies across borders and pay bills, safely, conveniently, cheaply and on time.
       </p>
-      <p class="max-w-4xl text-base sm:text-lg lg:text-[18px] font-normal leading-relaxed lg:leading-[26px] text-[#6E80A3]">
+      <p class="max-w-4xl text-base sm:text-lg lg:text-[18px] font-normal leading-relaxed lg:leading-[26px] text-[#6E80A3] text-left sm:text-center">
         We are customer-centric and focused on offering values to you that enable you achieve your financial needs.
       </p>
+
     </div>
 
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

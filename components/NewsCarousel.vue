@@ -29,8 +29,9 @@
               </div>
 
               <!-- Green arrow directly below play button -->
-              <div class="flex justify-start">
-                <span class="text-green-500 text-2xl text-center">↓</span>
+              <div class="flex justify-start px-4">
+                <img src="/images/arrow-down.svg" alt="">
+<!--                <span class="text-green-500 text-2xl text-center">↓</span>-->
               </div>
             </div>
           </div>
@@ -54,7 +55,7 @@
     </template>
   </div>
 
-  <div class="bg-[#f8f9ff] py-4 sm:py-6 px-4 sm:px-6 lg:px-10 w-full">
+  <div class=" hidden md:block bg-[#f8f9ff] py-4 sm:py-6 px-4 sm:px-6 lg:px-10 w-full">
     <div class="flex flex-col lg:flex-row lg:items-center justify-between w-full gap-4 lg:gap-0">
       <div class="flex flex-col lg:flex-row lg:items-center lg:gap-6">
         <!-- Left Column -->

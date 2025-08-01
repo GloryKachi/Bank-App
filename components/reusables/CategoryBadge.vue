@@ -1,6 +1,6 @@
 <template>
   <div class="relative inline-block">
-    <!-- Striped Background -->
+
     <div class="w-[71px] h-[21px] rounded-[4px] overflow-hidden">
       <svg
           class="w-full h-full"
@@ -24,7 +24,7 @@
       </svg>
     </div>
 
-    <!-- Foreground Button -->
+
     <button
         class="absolute top-0 left-0 w-[70px] h-[20px] translate-x-[-1px] translate-y-[-1px] text-white text-[10px] rounded-[4px] font-medium leading-[14px] flex items-center justify-center"
         :style="{ backgroundColor: color }"

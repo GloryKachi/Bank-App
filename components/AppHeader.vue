@@ -1,10 +1,10 @@
 <template>
   <div>
-    <!-- Fixed Header -->
+
     <header class="fixed top-0 left-0 right-0 z-50 bg-white border-b border-b-gray-400 shadow-sm" style="border-top-style: dashed; border-bottom-style: solid;">
       <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-center items-center h-16 relative">
-          <!-- Navigation Links -->
+          <!-- Nav Links -->
           <div class="hidden md:block">
             <div class="flex items-center space-x-8">
               <a href="#" class="flex items-center text-gray-900 hover:text-blue-800 px-3 py-2 text-sm font-medium transition-colors">
@@ -59,11 +59,11 @@
       </nav>
     </header>
 
-    <!-- Main content starts right after the fixed header -->
+
     <main class="">
-      <!-- Your page content goes here -->
+
       <div class="max-w-md mx-auto bg-white p-6 space-y-6">
-        <!-- This is where your other components will render -->
+
         <slot />
       </div>
     </main>

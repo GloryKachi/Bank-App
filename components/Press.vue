@@ -1,6 +1,5 @@
 <template>
   <section class="relative flex items-center justify-start bg-gradient-to-br from-blue-50 to-indigo-100 px-4 sm:px-6 lg:px-8 min-h-screen pt-8 sm:pt-0">
-    <!-- Background Images -->
     <div class="absolute right-0 top-0 h-full w-full pointer-events-none overflow-hidden">
       <img
           src="/images/press-bg-img.png"
@@ -14,16 +13,15 @@
       />
     </div>
 
-    <!-- Content -->
     <div class="text-left max-w-7xl mx-auto w-full relative z-10">
       <div class="space-y-4 sm:space-y-6 max-w-4xl">
-        <!-- Main Heading -->
+
         <h2 class="text-[70px] md:text-[70px] font-[500] text-[#0D2C65] leading-[77px]">
           Latest news and media<br />
           from around the world
         </h2>
 
-        <!-- Description -->
+
         <p class="text-[#6E80A3] text-lg sm:text-xl lg:text-[24px] leading-relaxed sm:leading-[1.3] lg:leading-[31px] max-w-2xl font-normal">
           Please write to us at
           <a
@@ -35,7 +33,7 @@
           if you have a media enquiry. We'll do our best to get back to you as soon as possible.
         </p>
 
-        <!-- CTA Button -->
+
         <div class="pt-2 sm:pt-4">
           <button
               @click="handleGetPressKit"

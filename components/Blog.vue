@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen bg-white">
     <Press/>
-    <!-- Main Content -->
+
     <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8 mt-8 sm:mt-16 lg:mt-32">
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
         <article
@@ -9,12 +9,12 @@
             :key="article.id"
             class="bg-[#F8F9FE] rounded-lg overflow-hidden hover:shadow-lg transition-shadow duration-300 w-full"
         >
-          <!-- Category Badge Usage -->
+
           <div class="p-3 sm:p-4 pb-2">
             <CategoryBadge :label="article.category" color="#2CD85F" />
           </div>
 
-          <!-- Article Content -->
+
           <div class="px-3 sm:px-5 pb-3 sm:pb-4">
             <h2 class="font-semibold text-base sm:text-[17px] leading-tight sm:leading-[19px] text-[#0D2C65] mb-2 line-clamp-2">
               {{ article.title }}
@@ -24,7 +24,7 @@
             </div>
           </div>
 
-          <!-- Article Image -->
+
           <div class="pt-3 sm:pt-4">
             <div class="w-full h-40 sm:h-48 rounded-sm overflow-hidden">
               <img

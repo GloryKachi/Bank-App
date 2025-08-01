@@ -13,13 +13,13 @@
             </h2>
           </div>
 
-          <!-- Right: News Items -->
+          <!-- right-->
           <div class="flex-1 w-full">
             <p class="text-left pt-6 sm:pt-8 lg:pt-20 w-full text-lg sm:text-xl lg:text-[18px] font-normal leading-relaxed lg:leading-[26px] text-[#233375]">
               {{ slides[currentSlideIndex].paragraph }}
             </p>
 
-            <!-- Play Button - Mobile Only -->
+            <!-- Mobile Only -->
             <div class="mt-6 lg:hidden">
               <div class="flex items-center gap-3 mb-4">
                 <button class="flex items-center justify-center w-12 h-12 bg-[#0D2C65] rounded-full text-white hover:bg-[#1a3a7a] transition-colors">
@@ -28,7 +28,7 @@
                 <p class="text-sm text-[#0D2C65] font-medium">See how it works</p>
               </div>
 
-              <!-- Green arrow directly below play button -->
+
               <div class="flex justify-start px-4">
                 <img src="/images/arrow-down.svg" alt="">
 <!--                <span class="text-green-500 text-2xl text-center">↓</span>-->
@@ -79,7 +79,7 @@
       <!-- Right Column -->
       <div class="mt-2 lg:mt-0 text-lg sm:text-xl lg:text-[24px] font-normal leading-tight lg:leading-[31px] text-[#233375] lg:flex lg:items-center lg:gap-1 lg:whitespace-nowrap hidden lg:block">
         Scroll Down
-        <!-- Desktop: Original text arrow -->
+
         <span class="text-green-500 text-xl sm:text-2xl lg:text-[24px]">↓</span>
       </div>
     </div>

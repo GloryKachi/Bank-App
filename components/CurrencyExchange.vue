@@ -1,6 +1,6 @@
 <template>
   <div class="max-w-md mx-auto bg-white p-6 space-y-6">
-    <!-- Send Amount -->
+
     <div class="space-y-2">
       <label class="text-sm text-[#8C8C8C]">You send</label>
       <div class="flex items-center justify-between bg-gray-50 rounded-lg p-4">
@@ -19,7 +19,7 @@
       </div>
     </div>
 
-    <!-- Fee -->
+
     <div class="flex items-center space-x-2 text-gray-600">
       <div class="w-6 h-6 bg-black rounded-full flex items-center justify-center">
         <span class="text-white text-xs">-</span>
@@ -27,7 +27,7 @@
       <span class="text-sm">{{ fee }} GBP Fee</span>
     </div>
 
-    <!-- Receive Amount -->
+
     <div class="space-y-2">
       <label class="text-sm text-gray-500">Recipient Gets</label>
       <div class="flex items-center justify-between bg-gray-50 rounded-lg p-4">
@@ -41,7 +41,7 @@
       </div>
     </div>
 
-    <!-- Conversion Details -->
+
     <div class="flex items-center justify-between">
       <div>
         <p class="text-sm text-[#6F6F6F]">Amount we'll convert</p>
@@ -49,7 +49,7 @@
       </div>
       <div class="text-right">
         <div class="flex items-center">
-          <!-- Clock icon as SVG instead of external file -->
+
           <svg class="mx-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <circle cx="12" cy="12" r="10"></circle>
             <polyline points="12,6 12,12 16,14"></polyline>
@@ -60,7 +60,7 @@
       </div>
     </div>
 
-    <!-- Payment Summary -->
+
     <div class="flex items-center justify-between">
       <div>
         <p class="text-sm text-[#6F6F6F]">Total to Pay</p>
@@ -87,7 +87,7 @@ import { ref, computed } from 'vue'
 
 const sendAmount = ref(1000)
 const fee = ref(2.99)
-const exchangeRate = ref(16.25) // Static fallback rate
+const exchangeRate = ref(16.25)
 
 const receiveAmount = computed(() => (sendAmount.value - fee.value) * exchangeRate.value)
 const convertAmount = computed(() => sendAmount.value - fee.value)
@@ -101,7 +101,7 @@ function formatNumber(num: number): string {
 }
 
 function calculateConversion() {
-  // In case you want to validate input later
+
 }
 
 function handleGetStarted() {

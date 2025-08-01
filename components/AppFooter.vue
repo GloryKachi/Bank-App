@@ -2,14 +2,13 @@
   <footer class="bg-gray-50 py-16 px-6">
     <div class="max-w-6xl mx-auto">
       <!-- Main CTA Section -->
-      <div class="text-center mb-16">
-        <h2 class="text-[64px] md:text-5xl font-medium text-[#0D2C65] mb-3 text-left leading-[74px]">
-          Sign up for free
-        </h2>
-        <p class="text-[64px] md:text-5xl font-medium text-[#0D2C65] text-left">
-          Join thousands of users
-        </p>
-      </div>
+      <h2 class="w-full text-[48px] md:text-5xl font-medium text-[#0D2C65] mb-3 text-left leading-[56px] md:leading-[74px] tracking-[-0.02em]">
+        Sign up for free
+      </h2>
+      <p class="w-full text-[48px] mb-10 md:text-5xl font-medium text-[#0D2C65] text-left leading-[56px] md:leading-[74px] tracking-[-0.02em]">
+        Join thousands of users
+      </p>
+
 
       <!-- Footer Links Grid -->
       <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">

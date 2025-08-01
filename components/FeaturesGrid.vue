@@ -6,7 +6,7 @@
       </svg>
     </div>
 
-    <!-- Hero Text Section - Made Responsive -->
+
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center justify-center text-center space-y-4 my-8 sm:my-12 lg:my-16">
       <!-- Mobile-only text -->
       <p class="block md:hidden w-full text-[48px] leading-[56px] tracking-[-0.02em] font-medium align-bottom text-[#0D2C65] text-left">
@@ -24,7 +24,7 @@
     </div>
 
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <!-- Features Grid -->
+
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8">
 
         <!-- First card -->

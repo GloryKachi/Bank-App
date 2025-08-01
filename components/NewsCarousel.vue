@@ -23,7 +23,11 @@
             <div class="mt-6 lg:hidden">
               <div class="flex items-center gap-3 mb-4">
                 <button class="flex items-center justify-center w-12 h-12 bg-[#0D2C65] rounded-full text-white hover:bg-[#1a3a7a] transition-colors">
-                  <img src="/images/play-icon.svg" alt="Play" class="w-4 h-4" />
+<!--                  <img src="/images/play-icon.svg" alt="Play" class="w-4 h-4" />-->
+                  <svg width="31" height="32" viewBox="0 0 31 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21.4202 18.1391L11.4591 24.0209C9.79246 25.005 7.71875 23.7615 7.71875 21.778V10.0144C7.71875 8.03085 9.79246 6.78732 11.4591 7.77144L21.4202 13.6532C23.0997 14.6449 23.0997 17.1474 21.4202 18.1391Z" stroke="white" stroke-width="1.5" stroke-linejoin="round"/>
+                  </svg>
+
                 </button>
                 <p class="text-sm text-[#0D2C65] font-medium">See how it works</p>
               </div>

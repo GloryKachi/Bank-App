@@ -28,102 +28,166 @@
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8">
 
         <!-- First card -->
-        <div class="w-full max-w-md mx-auto lg:max-w-none bg-gradient-to-br from-purple-50 to-blue-50 rounded-2xl p-6 sm:p-8 relative overflow-hidden shadow-lg min-h-[450px] sm:min-h-[500px] lg:min-h-[550px]">
-          <!-- Heading -->
-          <p class="text-xl sm:text-[24px] leading-tight sm:leading-[31px] tracking-tight font-normal font-[PushPenny] text-[#8C8C8C] mb-1">
-            Swap
-          </p>
-          <p class="text-2xl sm:text-[32px] leading-tight sm:leading-[42px] font-bold text-[#0D2C65] mb-3">
-            Peer to peer marketplace
-          </p>
-          <p class="text-base sm:text-[18px] leading-relaxed sm:leading-[26px] text-[#6E80A3] mb-6 pr-4">
-            Do you worry about unfavourable exchange rates when sending money? Create or accept offers at your preferred rate on Bomba's Peer to peer marketplace.
-          </p>
-
-          <!-- CTA -->
-          <div class="flex items-center space-x-3 group cursor-pointer">
-            <p class="text-[#1a73e8] font-medium group-hover:underline">
-              Swap now
+        <div class="w-full max-w-[552px] mx-auto bg-gradient-to-br from-purple-50 to-blue-50 rounded-[10px] p-6 sm:p-8 relative overflow-hidden shadow-lg min-h-[450px] sm:min-h-[500px] lg:min-h-[700px] flex flex-col justify-between">
+          <!-- Text Content -->
+          <div class="mt-8">
+            <p class="text-xl sm:text-[24px] leading-tight sm:leading-[31px] tracking-tight font-normal font-[PushPenny] text-[#8C8C8C] mb-1">
+              Swap
             </p>
-            <svg
-                width="24"
-                height="25"
-                viewBox="0 0 24 25"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                class="group-hover:translate-x-1 transition-transform duration-200"
-            >
-              <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M18.5303 13.2735C18.8232 12.9806 18.8232 12.5057 18.5303 12.2128L14.5303 8.21283C14.2374 7.91994 13.7626 7.91994 13.4697 8.21283C13.1768 8.50573 13.1768 8.9806 13.4697 9.27349L16.1893 11.9932H6C5.58579 11.9932 5.25 12.329 5.25 12.7432C5.25 13.1574 5.58579 13.4932 6 13.4932H16.1893L13.4697 16.2128C13.1768 16.5057 13.1768 16.9806 13.4697 17.2735C13.7626 17.5664 14.2374 17.5664 14.5303 17.2735L18.5303 13.2735Z"
-                  fill="#2668EC"
-              />
-            </svg>
+            <p class="text-2xl sm:text-[32px] leading-tight sm:leading-[42px] font-bold text-[#0D2C65] mb-3">
+              Peer to peer marketplace
+            </p>
+            <p class="text-base sm:text-[18px] leading-relaxed sm:leading-[26px] text-[#6E80A3] mb-6 pr-4">
+              Do you worry about unfavourable exchange rates when sending money? Create or accept offers at your preferred rate on Bomba's Peer to peer marketplace.
+            </p>
+
+            <!-- CTA -->
+            <div class="flex items-center space-x-3 group cursor-pointer">
+              <p class="text-[#1a73e8] font-medium group-hover:underline">
+                Swap now
+              </p>
+              <svg
+                  width="24"
+                  height="25"
+                  viewBox="0 0 24 25"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="group-hover:translate-x-1 transition-transform duration-200"
+              >
+                <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M18.5303 13.2735C18.8232 12.9806 18.8232 12.5057 18.5303 12.2128L14.5303 8.21283C14.2374 7.91994 13.7626 7.91994 13.4697 8.21283C13.1768 8.50573 13.1768 8.9806 13.4697 9.27349L16.1893 11.9932H6C5.58579 11.9932 5.25 12.329 5.25 12.7432C5.25 13.1574 5.58579 13.4932 6 13.4932H16.1893L13.4697 16.2128C13.1768 16.5057 13.1768 16.9806 13.4697 17.2735C13.7626 17.5664 14.2374 17.5664 14.5303 17.2735L18.5303 13.2735Z"
+                    fill="#2668EC"
+                />
+              </svg>
+            </div>
           </div>
 
-          <!-- Illustration -->
-          <div class="absolute bottom-4 right-4">
-            <img src="/images/cross.png" alt="Swap illustration" class="w-32 h-32 sm:w-44 sm:h-44 lg:w-56 lg:h-56 object-contain" />
+          <!-- Bigger Illustration -->
+          <div class="mt-10 self-end">
+            <img src="/images/cross.png" alt="Swap illustration" class="w-40 h-40 sm:w-52 sm:h-52 lg:w-64 lg:h-64 object-contain" />
           </div>
         </div>
+
+
 
         <!-- Second card -->
-        <div class="w-full max-w-md mx-auto lg:max-w-none bg-[#e6faf5] rounded-2xl p-6 sm:p-8 relative overflow-hidden min-h-[450px] sm:min-h-[500px] lg:min-h-[550px]">
-          <p class="text-xl sm:text-[24px] leading-tight sm:leading-[31px] tracking-[-0.02em] font-[400] font-[PushPenny] text-[#8C8C8C] text-left">Express</p>
-          <p class="text-2xl sm:text-[32px] leading-tight sm:leading-[42px] font-bold text-[#0D2C65] mb-3 text-left">Take the express lane</p>
-          <p class="mb-6 text-[#6E80A3] text-base sm:text-[18px] font-normal leading-relaxed sm:leading-[26px] text-left pr-4">Transact with light speed using Bomba Express. You can send funds at Bomba's exchange rates to family and friends from the UK & US to 20 African countries.</p>
-
-          <div class="flex items-center space-x-3 group cursor-pointer">
-            <p class="text-[#1a73e8] text-left font-medium group-hover:underline">
-              Send now
+        <div class="w-full max-w-[552px] mx-auto bg-[#e6faf5] rounded-[10px] p-6 sm:p-8 relative overflow-hidden shadow-lg min-h-[450px] sm:min-h-[500px] lg:min-h-[700px] flex flex-col justify-between">
+          <!-- Text Content -->
+          <div class="mt-8">
+            <p class="text-xl sm:text-[24px] leading-tight sm:leading-[31px] tracking-[-0.02em] font-[400] font-[PushPenny] text-[#8C8C8C] text-left">
+              Express
             </p>
-            <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg" class="group-hover:translate-x-1 transition-transform duration-200">
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M18.5303 13.2735C18.8232 12.9806 18.8232 12.5057 18.5303 12.2128L14.5303 8.21283C14.2374 7.91994 13.7626 7.91994 13.4697 8.21283C13.1768 8.50573 13.1768 8.9806 13.4697 9.27349L16.1893 11.9932H6C5.58579 11.9932 5.25 12.329 5.25 12.7432C5.25 13.1574 5.58579 13.4932 6 13.4932H16.1893L13.4697 16.2128C13.1768 16.5057 13.1768 16.9806 13.4697 17.2735C13.7626 17.5664 14.2374 17.5664 14.5303 17.2735L18.5303 13.2735Z" fill="#2668EC"/>
-            </svg>
+            <p class="text-2xl sm:text-[32px] leading-tight sm:leading-[42px] font-bold text-[#0D2C65] mb-3 text-left">
+              Take the express lane
+            </p>
+            <p class="mb-6 text-[#6E80A3] text-base sm:text-[18px] font-normal leading-relaxed sm:leading-[26px] text-left pr-4">
+              Transact with light speed using Bomba Express. You can send funds at Bomba's exchange rates to family and friends from the UK & US to 20 African countries.
+            </p>
+
+            <!-- CTA -->
+            <div class="flex items-center space-x-3 group cursor-pointer">
+              <p class="text-[#1a73e8] text-left font-medium group-hover:underline">
+                Send now
+              </p>
+              <svg
+                  width="24"
+                  height="25"
+                  viewBox="0 0 24 25"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="group-hover:translate-x-1 transition-transform duration-200"
+              >
+                <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M18.5303 13.2735C18.8232 12.9806 18.8232 12.5057 18.5303 12.2128L14.5303 8.21283C14.2374 7.91994 13.7626 7.91994 13.4697 8.21283C13.1768 8.50573 13.1768 8.9806 13.4697 9.27349L16.1893 11.9932H6C5.58579 11.9932 5.25 12.329 5.25 12.7432C5.25 13.1574 5.58579 13.4932 6 13.4932H16.1893L13.4697 16.2128C13.1768 16.5057 13.1768 16.9806 13.4697 17.2735C13.7626 17.5664 14.2374 17.5664 14.5303 17.2735L18.5303 13.2735Z"
+                    fill="#2668EC"
+                />
+              </svg>
+            </div>
           </div>
-          <div class="absolute bottom-4 right-4">
-            <img src="/images/cash.png" alt="Express illustration" class="w-32 h-32 sm:w-44 sm:h-44 lg:w-52 lg:h-52 object-contain" />
+
+          <!-- Bigger Illustration -->
+          <div class="mt-10 self-end">
+            <img src="/images/cash.png" alt="Express illustration" class="w-40 h-40 sm:w-52 sm:h-52 lg:w-64 lg:h-64 object-contain" />
           </div>
         </div>
+
 
         <!-- Third card -->
-        <div class="w-full max-w-md mx-auto lg:max-w-none bg-[#f0f2f6] rounded-2xl p-6 sm:p-8 relative overflow-hidden min-h-[450px] sm:min-h-[500px] lg:min-h-[550px]">
-          <p class="text-xl sm:text-[24px] leading-tight sm:leading-[31px] tracking-[-0.02em] font-[400] font-[PushPenny] text-[#8C8C8C] text-left">Refer & Earn</p>
-          <p class="text-2xl sm:text-[32px] leading-tight sm:leading-[42px] font-bold text-[#0D2C65] mb-3 text-left">Make money while you refer</p>
-          <p class="mb-6 text-[#6E80A3] text-base sm:text-[18px] font-normal leading-relaxed sm:leading-[26px] text-left pr-4">Bomba allows you to earn passively through its platform. Refer your friends and family to use Bomba and earn up to £140</p>
-
-          <div class="flex items-center space-x-3 group cursor-pointer">
-            <p class="text-[#1a73e8] text-left font-medium group-hover:underline">
-              Share now
+        <div class="w-full max-w-[552px] mx-auto bg-[#f0f2f6] rounded-[10px] p-6 sm:p-8 relative overflow-hidden shadow-lg min-h-[450px] sm:min-h-[500px] lg:min-h-[700px] flex flex-col justify-between">
+          <!-- Text Content -->
+          <div class="mt-8">
+            <p class="text-xl sm:text-[24px] leading-tight sm:leading-[31px] tracking-[-0.02em] font-[400] font-[PushPenny] text-[#8C8C8C] text-left">
+              Refer & Earn
             </p>
-            <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg" class="group-hover:translate-x-1 transition-transform duration-200">
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M18.5303 13.2735C18.8232 12.9806 18.8232 12.5057 18.5303 12.2128L14.5303 8.21283C14.2374 7.91994 13.7626 7.91994 13.4697 8.21283C13.1768 8.50573 13.1768 8.9806 13.4697 9.27349L16.1893 11.9932H6C5.58579 11.9932 5.25 12.329 5.25 12.7432C5.25 13.1574 5.58579 13.4932 6 13.4932H16.1893L13.4697 16.2128C13.1768 16.5057 13.1768 16.9806 13.4697 17.2735C13.7626 17.5664 14.2374 17.5664 14.5303 17.2735L18.5303 13.2735Z" fill="#2668EC"/>
-            </svg>
+            <p class="text-2xl sm:text-[32px] leading-tight sm:leading-[42px] font-bold text-[#0D2C65] mb-3 text-left">
+              Make money while you refer
+            </p>
+            <p class="mb-6 text-[#6E80A3] text-base sm:text-[18px] font-normal leading-relaxed sm:leading-[26px] text-left pr-4">
+              Bomba allows you to earn passively through its platform. Refer your friends and family to use Bomba and earn up to £140
+            </p>
+
+            <!-- CTA -->
+            <div class="flex items-center space-x-3 group cursor-pointer">
+              <p class="text-[#1a73e8] text-left font-medium group-hover:underline">
+                Share now
+              </p>
+              <svg
+                  width="24"
+                  height="25"
+                  viewBox="0 0 24 25"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="group-hover:translate-x-1 transition-transform duration-200"
+              >
+                <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M18.5303 13.2735C18.8232 12.9806 18.8232 12.5057 18.5303 12.2128L14.5303 8.21283C14.2374 7.91994 13.7626 7.91994 13.4697 8.21283C13.1768 8.50573 13.1768 8.9806 13.4697 9.27349L16.1893 11.9932H6C5.58579 11.9932 5.25 12.329 5.25 12.7432C5.25 13.1574 5.58579 13.4932 6 13.4932H16.1893L13.4697 16.2128C13.1768 16.5057 13.1768 16.9806 13.4697 17.2735C13.7626 17.5664 14.2374 17.5664 14.5303 17.2735L18.5303 13.2735Z"
+                    fill="#2668EC"
+                />
+              </svg>
+            </div>
           </div>
-          <div class="absolute bottom-4 right-4">
-            <img src="/images/gift.png" alt="Refer illustration" class="w-32 h-32 sm:w-48 sm:h-48 lg:w-64 lg:h-64 object-contain" />
+
+          <!-- Bigger Illustration -->
+          <div class="mt-10 self-end">
+            <img src="/images/gift.png" alt="Refer illustration" class="w-40 h-40 sm:w-52 sm:h-52 lg:w-64 lg:h-64 object-contain" />
           </div>
         </div>
+
 
         <!-- Fourth card -->
-        <div class="w-full max-w-md mx-auto lg:max-w-none bg-[#fdf3ef] rounded-2xl p-6 sm:p-8 relative overflow-hidden min-h-[450px] sm:min-h-[500px] lg:min-h-[550px]">
-          <p class="text-xl sm:text-[24px] leading-tight sm:leading-[31px] tracking-[-0.02em] font-[400] font-[PushPenny] text-[#8C8C8C] text-left">Bomba Connect</p>
-          <p class="text-2xl sm:text-[32px] leading-tight sm:leading-[42px] font-bold text-[#0D2C65] mb-3 text-left">Deals from top brands</p>
-          <p class="mb-6 text-[#6E80A3] text-base sm:text-[18px] font-normal leading-relaxed sm:leading-[26px] text-left pr-4">With Bomba Connect, you can pay for and access goods and services from some of the best and trusted brands - at the best rates and with minimal wait time - all within the Bomba App.</p>
-
-          <div class="flex items-center space-x-3 group cursor-pointer">
-            <p class="text-[#1a73e8] text-left font-medium group-hover:underline">
-              Explore now
+        <div class="w-full max-w-md mx-auto lg:max-w-none bg-[#fdf3ef] rounded-2xl pt-10 px-6 sm:pt-12 sm:px-8 relative overflow-hidden min-h-[480px] sm:min-h-[520px] lg:min-h-[580px]">
+          <div class="mt-2">
+            <p class="text-xl sm:text-[24px] leading-tight sm:leading-[31px] tracking-[-0.02em] font-[400] font-[PushPenny] text-[#8C8C8C] text-left">
+              Bomba Connect
             </p>
-            <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg" class="group-hover:translate-x-1 transition-transform duration-200">
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M18.5303 13.2735C18.8232 12.9806 18.8232 12.5057 18.5303 12.2128L14.5303 8.21283C14.2374 7.91994 13.7626 7.91994 13.4697 8.21283C13.1768 8.50573 13.1768 8.9806 13.4697 9.27349L16.1893 11.9932H6C5.58579 11.9932 5.25 12.329 5.25 12.7432C5.25 13.1574 5.58579 13.4932 6 13.4932H16.1893L13.4697 16.2128C13.1768 16.5057 13.1768 16.9806 13.4697 17.2735C13.7626 17.5664 14.2374 17.5664 14.5303 17.2735L18.5303 13.2735Z" fill="#2668EC"/>
-            </svg>
+            <p class="text-2xl sm:text-[32px] leading-tight sm:leading-[42px] font-bold text-[#0D2C65] mb-3 text-left">
+              Deals from top brands
+            </p>
+            <p class="mb-6 text-[#6E80A3] text-base sm:text-[18px] font-normal leading-relaxed sm:leading-[26px] text-left pr-4">
+              With Bomba Connect, you can pay for and access goods and services from some of the best and trusted brands – at the best rates and with minimal wait time – all within the Bomba App.
+            </p>
+
+            <div class="flex items-center space-x-3 group cursor-pointer">
+              <p class="text-[#1a73e8] text-left font-medium group-hover:underline">
+                Explore now
+              </p>
+              <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg" class="group-hover:translate-x-1 transition-transform duration-200">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M18.5303 13.2735C18.8232 12.9806 18.8232 12.5057 18.5303 12.2128L14.5303 8.21283C14.2374 7.91994 13.7626 7.91994 13.4697 8.21283C13.1768 8.50573 13.1768 8.9806 13.4697 9.27349L16.1893 11.9932H6C5.58579 11.9932 5.25 12.329 5.25 12.7432C5.25 13.1574 5.58579 13.4932 6 13.4932H16.1893L13.4697 16.2128C13.1768 16.5057 13.1768 16.9806 13.4697 17.2735C13.7626 17.5664 14.2374 17.5664 14.5303 17.2735L18.5303 13.2735Z" fill="#2668EC"/>
+              </svg>
+            </div>
           </div>
-          <div class="absolute bottom-4 right-4">
-            <img src="/images/cart.png" alt="Connect illustration" class="w-32 h-32 sm:w-48 sm:h-48 lg:w-64 lg:h-64 object-contain" />
+
+          <div class="absolute bottom-2 right-2">
+            <img src="/images/cart.png" alt="Connect illustration" class="w-36 h-36 sm:w-52 sm:h-52 lg:w-72 lg:h-72 object-contain" />
           </div>
         </div>
+
       </div>
     </div>
   </section>

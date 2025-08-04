@@ -15,10 +15,27 @@
         </div>
 
 
-        <div class="items-center justify-center">
-          <img src="/images/logos.png" alt="brand logos">
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-y-8 gap-x-6 justify-items-center items-center">
+          <Logo name="VFD" />
+          <Logo name="thunes" />
+          <Logo name="truelayer" />
+
+          <Logo name="access" />
+          <Logo name="railsr" />
+          <Logo name="tunarative" />
+
+          <Logo name="paga" />
+          <Logo name="solid" />
+          <Logo name="identity" />
         </div>
+
+
       </div>
     </div>
   </section>
 </template>
+
+
+<script setup lang="ts">
+import Logo from "~/components/reusables/Logo.vue";
+</script>
